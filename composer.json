@@ -1,0 +1,36 @@
+{
+  "name": "dmkzwo/formautoreply",
+  "description": "Adds autoreply functionality to the form generator",
+  "keywords": ["contao", "form", "autoreply"],
+  "type": "contao-module",
+  "homepage": "http://www.dmkzwo.de",
+  "license": "LGPL-3.0+",
+  "authors":[
+    {
+      "name":"DMKZWO GmbH",
+      "homepage":"http://www.dmkzwo.de",
+      "role": "Project Leader"
+    },
+    {
+      "name":"Thomas Schabacher",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php":">5.4",
+    "contao/core" : "~3.5",
+    "contao-community-alliance/composer-plugin": "~2.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Dmkzwo": "src/"
+    }
+  },
+  "extra":{
+    "contao": {
+      "sources":{
+        "module": "system/modules/formautoreply"
+      }
+    }
+  }
+}
