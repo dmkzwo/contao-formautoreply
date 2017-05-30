@@ -23,7 +23,7 @@
   },
   "autoload": {
     "psr-0": {
-      "Dmkzwo": "system/modules/formautoreply/library/"
+      "Dmkzwo\\": "system/modules/formautoreply/library/"
     }
   },
   "extra":{
