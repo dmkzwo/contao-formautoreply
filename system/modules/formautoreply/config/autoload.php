@@ -4,6 +4,6 @@ if (class_exists('NamespaceClassLoader')) {
   /**
    * Register PSR-0 namespace
    */
-  NamespaceClassLoader::add('Dmkzwo', 'formautoreply/library');
+  NamespaceClassLoader::add('Dmkzwo', 'system/modules/formautoreply/library');
 
 }
