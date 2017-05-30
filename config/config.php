@@ -1,3 +1,3 @@
 <?php
 
-$GLOBALS['TL_HOOKS']['prepareFormData'][] = array('Dmkzwo\\FormAutoreply\\AutoreplyHelper', 'myProcessFormData');
+$GLOBALS['TL_HOOKS']['prepareFormData'][] = array('Dmkzwo\FormAutoreply\AutoreplyHelper', 'myProcessFormData');
