@@ -29,7 +29,7 @@
   "extra":{
     "contao": {
       "sources":{
-        "": "system/modules/formautoreply"
+        "system/modules/formautoreply": "system/modules/formautoreply"
       }
     }
   }
