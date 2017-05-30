@@ -23,13 +23,13 @@
   },
   "autoload": {
     "psr-0": {
-      "Dmkzwo": "src/"
+      "Dmkzwo": "system/modules/formautoreply/library/"
     }
   },
   "extra":{
     "contao": {
       "sources":{
-        "module": "system/modules/formautoreply"
+        "": "system/modules/formautoreply"
       }
     }
   }
